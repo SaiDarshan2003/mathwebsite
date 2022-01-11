@@ -160,7 +160,7 @@ h1{
 </html>
 ```
 ## OUTPUT:
-![GitHub Logo](1.png)
-![GitHub Logo](2.png)
+![GitHub Logo](3.png)
+
 ## Result:
 Thus a website is designed to perform mathematical calculations in the client side.
