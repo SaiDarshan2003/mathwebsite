@@ -39,16 +39,16 @@ body {
   margin-right: auto;
 }
 .content {
-  display: block;
+  display:square;
   width: 100%;
-  background-color:green;
+  background-color:yellow;
   min-height: 500px;
   margin-top: 150px;
 }
 .content2{
     display: block;
     width: 100%;
-    background-color:blue;
+    background-color:yellow;
     min-height: 500px;
     margin-top: 150px;
     margin-bottom: 150px;
@@ -85,27 +85,27 @@ h1{
                 </div><br>
                 <div class=formelement>
                     <lable for="cedit">Volume:</lable>
-                    <input type="text" id="cedit" readonly="0"/>
+                    <input type="number" id="cedit" readonly="0"/>
                 </div><br>
                 <div class=formelement>
-                    Formula is = pi*Radius^2*Height
+                    Formula is = pi*(Radius^2)*Height
                 </div>
             </form>
         </div>
-        <script type="text/javascript">
+        <script type="number/javascript">
             var button;
             button=document.querySelector("#calbutton");
             button.addEventListener("click",function(){
-                var anumber,bnumber,cnumber;
-                var aval,bval,cval;
-                anumber=document.querySelector("#aedit");
-                bnumber=document.querySelector("#bedit");
-                cnumber=document.querySelector("#cedit");
+                var anum,bnum,cnum;
+                var a,b,c;
+                anum=document.querySelector("#aedit");
+                bnum=document.querySelector("#bedit");
+                cnum=document.querySelector("#cedit");
 
-                aval=parseInt(anumber.value);
-                bval=parseInt(bnumber.value);
-                cval=(22/7)*aval**2*(bval);
-                cnumber.value=""+cval;
+                a=parseInt(anum.value);
+                b=parseInt(bnum.value);
+                c=(22/7)*(a**2)*(b);
+                cnum.value=""+c;
             });
         </script>
         <div class="content2">
@@ -113,54 +113,50 @@ h1{
             <form>
                 <div class="formelement">
                   <lable for="radiusedit">RADIUS:</lable>
-                  <input type="text" id="radiusedit" value=" "/>
+                  <input type="number" id="radiusedit" value=" "/>
                 </div><br>
                 <div class="formelement">
                   <lable for="heightedit">HEIGHT:</lable>
-                  <input type="text" id="heightedit" value=" "/>
+                  <input type="number" id="heightedit" value=" "/>
                 </div><br>
                 <div class="formelement">
                   <input type="button" value="CALCULATE" id="calbutton"/>
                 </div><br>
                 <div class="formelement">
                   <lable for="volumeedit">VOLUME:</lable>
-                  <input type="text" id="volumeedit" readonly="0"/>
+                  <input type="number" id="volumeedit" readonly="0"/>
                 </div><br>
                 <div class="formelement">
                 Formula is:V=π*Radius^2*Height/3
                 </div><br>
-                
-            </form>
     
+            </form>
             </div>
         </div>
-        <script type="text/javascript">
+        <script type="number/javascript">
           var button;
           button=document.querySelector("#calbutton");
           button.addEventListener("click",function(){
             
-              var radiustext,heighttext,volumetext;
-              var aval,bval,cval;
+              var RADIUS,HEIGHT,VOLUME;
+              var a,b,c;
     
-              radiustext=document.querySelector("#radiusedit");
-              heighttext=document.querySelector("#heightedit");
-              volumetext=document.querySelector("#volumeedit");
+              RADIUS=document.querySelector("#radiusedit");
+              HEIGHT=document.querySelector("#heightedit");
+              VOLUME=document.querySelector("#volumeedit");
       
-              aval=parseInt(radiustext.value);
-              bval=parseInt(heighttext.value);
-              cval=(22/7)*(aval**2)*(bval/3);
-              volumetext.value=""+cval;
-        
-      
+              a=parseInt(RADIUS.value);
+              b=parseInt(HEIGHT.value);
+              c=(22/7)*(a**2)*(b/3);
+              VOLUME.value=""+c;
             });
-      
         </script>     
 <footer>By Sai Darshan</footer>
 </body>
 </html>
 ```
 ## OUTPUT:
-![GitHub Logo](3.png)
+![GitHub Logo](.png)
 
 ## Result:
 Thus a website is designed to perform mathematical calculations in the client side.
