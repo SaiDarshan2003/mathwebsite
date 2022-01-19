@@ -307,7 +307,7 @@ Publish the website in the given URL.
 </html>
 ```
 ## OUTPUT:
-![GitHub Logo](.png)
+![GitHub Logo](1.png)
 
 
 ## Result:
