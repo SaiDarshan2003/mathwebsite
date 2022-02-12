@@ -110,12 +110,6 @@ Publish the website in the given URL.
       </form>
       <div class="fbox">
         <div class="footer">
-          <center>
-            <br><br>
-              <a><u> Website for Mathematical Calculations in Client Side.</u></a>            
-              <a><u>By Nithishkumar P</u></a>
-            </p>
-          </center>
         </div>
 
     </div>
