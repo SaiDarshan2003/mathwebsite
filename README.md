@@ -108,8 +108,6 @@ Publish the website in the given URL.
 
         <br>
       </form>
-      <div class="fbox">
-        <div class="footer">
         </div>
 
     </div>
@@ -297,11 +295,13 @@ Publish the website in the given URL.
     border: 1px solid whitesmoke;
   }
 </style>
+<footer> <p class="by"><B>Developed by : R.SOMEASVAR(21500795) </B></p></footer>
+
 
 </html>
 ```
 ## OUTPUT:
-![GitHub Logo](1.png)
+![GitHub Logo](re.png)
 
 
 ## Result:
